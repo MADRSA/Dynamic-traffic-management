@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+ body {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  background-color: #000000;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-family: arial;
+
+}
+
+.navbar a {
+  float: center;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 40px;
+}
+
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1800px;
+  background-color: black; 
+  color: #f2f2f2;
+
+}
+
+.i{
+    text-align: center;
+}
+
+.des{
+    margin-left: 150px;
+    font-size: 30px;
+    margin-right: 150px;
+}
+.p{
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 30px;
+}
+.media{
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 18px;
+  
+}
+sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+
+.im
+{
+    border-radius: 50%;
+}
+.j{
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 18px;
+    text-align: center;
+}
+.k{
+    margin-left: 10px;
+    margin-right: 150px;
+    font-size: 18px;
+    text-align: center;
+}
+.c{
+    text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <a><b>Dynamic Traffic Management  </a>
+</div>
+
+<div class="main">
+    <!-- <div class="i">
+        <a href="https://ibb.co/S0t3KMK"><img src="https://i.ibb.co/nf7LDYD/extremistlogo.jpg" alt="extremistlogo" border="0"></a>
+    </div> -->
+    <hr class="des">
+    <br>
+    <br>
+    <div class="des">
+        <h3>Description :</h3>
+    </div>
+    <p class="p">A Smart System which tackles the current problem of static green window time allocated to the Traffic Signals at the crossroads by detectting number of vehicles present at each lane and dynamically allocating time to them!, alongwith detecting congeston problems if occured at any of the lane! </p>
+    <br>
+    <br>
+    <br>
+    <hr class="des">
+    <br>
+    <br>
+    <div class="des">
+        <h3>Video Streaming Demonstration :</h3>
+    </div>
+    <div class="des">
+           <img src="{{ url_for('calc') }}" style="display: block;margin-left: auto;margin-right: auto">
+           <br>
+    </div>
+  
+</div>
+</body>
+</html>
+
+
